@@ -73,8 +73,7 @@ The shelf stores **file references**; adding, clearing, hiding, and quitting do 
 
 ### Optional checks and packaging
 
-Build-time tests run automatically. Native AppKit integration checks need a logged-in macOS graphical session:
-GitHub Actions also builds and runs these build-time tests on Apple Silicon and Intel runners; graphical integration checks remain local.
+Build-time tests run automatically. GitHub Actions also builds and runs them on Apple Silicon and Intel runners. Native AppKit integration checks remain local and need a logged-in macOS graphical session:
 
 ```sh
 build/DriftShelf.app/Contents/MacOS/DriftShelf --self-test
@@ -176,8 +175,7 @@ Finder 中显示的应用名称跟随系统语言；应用内语言菜单控制�
 
 ### 可选检查与打包
 
-构建时自动运行基础测试。AppKit 集成检查需要已登录的 macOS 图形会话：
-GitHub Actions 也会在 Apple Silicon 和 Intel 环境中构建并运行基础测试，图形集成检查在本地执行。
+构建时自动运行基础测试，GitHub Actions 也会在 Apple Silicon 和 Intel 环境中构建并运行这些测试。AppKit 图形集成检查在本地执行，需要已登录的 macOS 图形会话：
 
 ```sh
 build/DriftShelf.app/Contents/MacOS/DriftShelf --self-test

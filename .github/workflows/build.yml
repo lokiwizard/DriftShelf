@@ -31,4 +31,4 @@ jobs:
           ARCH: ${{ matrix.arch }}
         run: bash scripts/build.sh
       - name: Verify executable architecture
-        run: lipo -verify_arch ${{ matrix.arch }} build/DriftShelf.app/Contents/MacOS/DriftShelf
+        run: lipo build/DriftShelf.app/Contents/MacOS/DriftShelf -verify_arch ${{ matrix.arch }}
