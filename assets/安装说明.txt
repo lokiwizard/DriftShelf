@@ -1,0 +1,45 @@
+DriftShelf / 轻放 1.1.0
+
+English
+-------
+Quit any older copy of DriftShelf / 轻放 from its menu bar before installing.
+Drag DriftShelf.app into Applications, then open it. Requires macOS 13+;
+the disk image architecture must match your Mac (arm64 or x86_64).
+The app appears in the menu bar, without a Dock icon.
+
+Drag files or folders in Finder, shake back and forth three times in about
+two seconds, then drop onto the floating shelf. Drag a row out to take one
+file, or drag the bottom area to take all files. A successful drop removes
+the references; an empty shelf hides itself. Cancelled drags keep the files.
+
+Menu bar > Language / 语言 > English / 简体中文 / System Default.
+Changes apply immediately and are saved. Appearance controls transparency.
+The shelf stores references only. Clearing or quitting never deletes originals.
+The destination decides whether to copy or move; hold Option in Finder to copy.
+Only existing files and folders are supported. The list is not saved on quit.
+The app does not upload files or require Accessibility permission.
+
+This locally built app uses an ad-hoc signature, without Developer ID signing
+or Apple notarization. If macOS blocks it, follow System Settings > Privacy
+& Security > Open Anyway, after checking the source. Source build instructions:
+https://github.com/lokiwizard/DriftShelf
+
+简体中文
+--------
+安装更新前，请从菜单栏退出正在运行的 DriftShelf / 轻放旧版。
+将 DriftShelf.app 拖入 Applications 后打开。需要 macOS 13 或更高版本，
+磁盘映像架构须与本机匹配（arm64 或 x86_64）。应用驻留菜单栏，没有 Dock 图标。
+
+在 Finder 中拖着文件或文件夹，在约两秒内来回晃动三次，将文件放入浮动暂存窗口。
+拖动文件行可带走该项，拖动窗口底部空白处可带走全部。
+成功投递后移除对应引用，空窗口自动隐藏；取消拖拽则保留。
+
+菜单栏 > Language / 语言，可选择 English、简体中文或跟随系统，立即生效并保存。
+外观设置可调节毛玻璃透明度。暂存区只保存引用，清空或退出不删除原文件。
+文件实际移动或拷贝由接收方处理；Finder 中按住 Option 拖出可拷贝。
+仅支持已存在的文件和文件夹，暂存列表不跨重启保存。
+应用不上传文件，不要求辅助功能权限。
+
+本地构建使用 ad-hoc 签名，没有 Developer ID 签名或 Apple 公证。
+若 macOS 阻止启动，确认源码后按系统提示在「系统设置 → 隐私与安全性」中「仍要打开」。
+源码编译说明：https://github.com/lokiwizard/DriftShelf
